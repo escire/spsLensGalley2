@@ -1,7 +1,7 @@
 <?php
 
-require_once('LensPlugin.inc.php');
+require_once('SPSLensGalleyPlugin.inc.php');
 
-return new LensPlugin();
+return new SPSLensGalleyPlugin();
 
-?> 
+?>

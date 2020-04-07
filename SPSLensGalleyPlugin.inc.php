@@ -3,7 +3,7 @@
 
 import('lib.pkp.classes.plugins.GenericPlugin');
 
-class LensPlugin extends GenericPlugin {
+class SPSLensGalleyPlugin extends GenericPlugin {
 
 	function register($category, $path) {
 		if (parent::register($category, $path)) {
@@ -81,13 +81,11 @@ class LensPlugin extends GenericPlugin {
 	}
 
 	function getDisplayName() {
-		return __('plugins.generic.lens.name');
-		//return 'Lens plugin';
+		return __('plugins.generic.spsLensGalley.displayName');
 	}
 
 	function getDescription() {
-		return __('plugins.generic.lens.description');
-		//return 'Genera una vista xml en formato LENS';
+		return __('plugins.generic.spsLensGalley.description');
 	}
 
 	function getManagementVerbs() {
