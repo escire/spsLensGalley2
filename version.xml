@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<version>
+	<application>lens</application>
+	<type>plugins.generic</type>
+	<release>1.0.0.0</release>
+	<date>20017-08-05</date>
+	<lazy-load>1</lazy-load>
+	<class>LensPlugin</class>
+</version>

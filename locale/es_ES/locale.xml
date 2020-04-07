@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<locale name="es_ES" full_name="Español">
+	<message key="plugins.generic.lens.name">SPS Lens Galley</message>
+	<message key="plugins.generic.lens.description">Visor de galerada usando SPS Lens para mostrar XML JATS</message>
+	<message key="plugins.generic.lens.settings">Configuración</message>
+</locale>
