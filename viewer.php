@@ -19,7 +19,7 @@
 <!DOCTYPE html>
 <html xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <head>
-	<title>Lens Galley</title>
+	<title>SPS Lens Galley</title>
 	<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="all" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
 	<link href='<?php echo base64_decode($base_url) ?>/plugins/generic/lens/lib/lens.css' rel='stylesheet' type='text/css'/>

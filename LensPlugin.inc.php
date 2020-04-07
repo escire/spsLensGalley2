@@ -57,9 +57,7 @@ class LensPlugin extends GenericPlugin {
 		$additionalHeadData = $templateManager->get_template_vars('additionalHeadData');
 
 		$SlideshowScript = '
-		<link rel="stylesheet" href="'.$baseUrl . DIRECTORY_SEPARATOR . $this->getPluginPath() . DIRECTORY_SEPARATOR . 'css' . DIRECTORY_SEPARATOR .'styles.css" type="text/css" />
-
-		<script language="javascript" type="text/javascript">
+		<script type="text/javascript">
 			$(document).ready(function(){
 				var a = "";
 				if((window.location.href).indexOf("issue/view") > -1 )
@@ -68,10 +66,10 @@ class LensPlugin extends GenericPlugin {
 					a = $("#articleFullText").find("a");
 
 				$.each(a, function(k,v){
-				    if($(v).html() == "LENS"){
+				    if($(v).html() == "LENS" || $(v).html() == "XML"){
 				        var galId = $(v).attr("href").split("/").pop();
-					var art = $(v).attr("href").split("/");
-					art = art[art.length - 2];
+						var art = $(v).attr("href").split("/");
+						art = art[art.length - 2];
 				        $(v).attr("href", "' . $baseUrl . '/plugins/generic/lens/viewer.php?issue=' . $issueId . '&galId=" + galId + "&art=" + art + "&r=' . $rev  . '&b=' . base64_encode($baseUrl) .  '&ref=' . base64_encode($currentUrl) . '");
 				    }
 				});
