@@ -2,7 +2,7 @@
 
 Description...
 
-## Install
+## Installing
 
 1. Download or clone project
 2. Rename project folder to: `lens`
