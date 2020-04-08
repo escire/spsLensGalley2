@@ -1,5 +1,4 @@
 <?php
-//error_reporting(E_ALL);
 
 import('lib.pkp.classes.plugins.GenericPlugin');
 
