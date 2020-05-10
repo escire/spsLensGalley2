@@ -69,7 +69,7 @@ class SPSLensGalleyPlugin extends GenericPlugin {
 				        var galId = $(v).attr("href").split("/").pop();
 						var art = $(v).attr("href").split("/");
 						art = art[art.length - 2];
-				        $(v).attr("href", "' . $baseUrl . '/plugins/generic/lens/viewer.php?issue=' . $issueId . '&galId=" + galId + "&art=" + art + "&r=' . $rev  . '&b=' . base64_encode($baseUrl) .  '&ref=' . base64_encode($currentUrl) . '");
+				        $(v).attr("href", "' . $baseUrl . '/plugins/generic/spsLensGalley/viewer.php?issue=' . $issueId . '&galId=" + galId + "&art=" + art + "&r=' . $rev  . '&b=' . base64_encode($baseUrl) .  '&ref=' . base64_encode($currentUrl) . '");
 				    }
 				});
 			});

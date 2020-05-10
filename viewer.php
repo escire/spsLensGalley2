@@ -22,10 +22,10 @@
 	<title>SPS Lens Galley</title>
 	<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="all" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
-	<link href='<?php echo base64_decode($base_url) ?>/plugins/generic/lens/lib/lens.css' rel='stylesheet' type='text/css'/>
+	<link href='<?php echo base64_decode($base_url) ?>/plugins/generic/spsLensGalley/lib/lens.css' rel='stylesheet' type='text/css'/>
 
-	<script src="<?php echo base64_decode($base_url) ?>/plugins/generic/lens/lib/jquery.min.js"></script>
-	<script src='<?php echo base64_decode($base_url) ?>/plugins/generic/lens/lib/lens.js'></script>
+	<script src="<?php echo base64_decode($base_url) ?>/plugins/generic/spsLensGalley/lib/jquery.min.js"></script>
+	<script src='<?php echo base64_decode($base_url) ?>/plugins/generic/spsLensGalley/lib/lens.js'></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 	<script type="text/javascript">
