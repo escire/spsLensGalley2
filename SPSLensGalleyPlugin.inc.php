@@ -63,6 +63,8 @@ class SPSLensGalleyPlugin extends GenericPlugin {
 					a = $(".tocGalleys").find("a");
 				else if((window.location.href).indexOf("article/view") > -1)
 					a = $("#articleFullText").find("a");
+                                else if((window.location.href).indexOf("/index") > -1)
+                                        a = $(".tocGalleys").find("a");
 
 				$.each(a, function(k,v){
 				    if($(v).html() == "LENS" || $(v).html() == "XML"){
