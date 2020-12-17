@@ -235,7 +235,7 @@ Box
   padding-bottom: 20px; }
 
 /*
-Citations
+Citations 
 --------------------------------------- */
 .lens-article .resources .content-node.citation .resource-header .name {
   font-weight: normal;
@@ -260,7 +260,7 @@ Citations
   padding-right: 20px; }
 
 /*
-Definition
+Definition 
 --------------------------------------- */
 .lens-article .content-node.definition .description {
   font-size: 16px; }
@@ -528,7 +528,7 @@ out (on iOS 5.1), or flicker (on iOS 6). */
 ======================================================================= */
 .article .document {
   line-height: 28.5px;
-  font-size: 17px;
+  font-size: 17px !important;
   position: relative;
   float: left;
   overflow: hidden;
@@ -1063,9 +1063,12 @@ TOC
   display: inline; }
 
 .resource-view.toc .heading-ref.active {
-  color: rgba(0, 0, 0, 0.9);
-  background: #fff;
-  border: 1px solid #eee; }
+  color: #1B6685;
+  background: rgba(11, 157, 217, 0.075);
+  border: 1px solid rgba(11, 157, 217, 0.4); }
+
+.resource-view.toc .heading-ref span:hover {
+  color: #0b9dd9; }
 
 .resource-view.toc .heading-ref.level-2 {
   padding-left: 20px;
@@ -1234,8 +1237,9 @@ body.reader #container {
   height: 100%; }
 
 body, textarea, p, input {
-  font-family: 'Source Sans Pro', Helvetica, Arial, Verdana, sans-serif;
-  color: #505050; }
+  font-family: 'Source Sans Pro', Helvetica, Arial, Verdana, sans-serif !important;
+  color: #505050;
+  font-weight: 400 !important; }
 
 a {
   color: #1B6685;
@@ -1462,3 +1466,6 @@ a.go-back:hover span {
   display: inline;
   padding-left: 6px;
   padding-right: 6px; }
+
+.superscript .footnote-reference {
+  vertical-align: -webkit-baseline-middle; }
